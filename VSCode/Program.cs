@@ -17,7 +17,7 @@ namespace QueryTool
                 Define Connection
             *******************************************************/
  
-            AdomdConnection adomdConnection = new AdomdConnection("Datasource=powerbi://api.powerbi.com/v1.0/myorg/Demo;initial catalog=RLS;User ID=app:cf166a73-946b-4c90-9d84-8b51e4d79ea8@644d9875-54f6-4f5sdfg;Password=uJOVq.n55abLr2-");
+            AdomdConnection adomdConnection = new AdomdConnection("Datasource=powerbi://api.powerbi.com/v1.0/myorg/Demo_SwissRe;initial catalog=RLS;User ID=app:cf166a73-946b-4c90-9d84-8b51e4d79ea8@644d9875-54f6-4f5f-b562-2a14755779f7;Password=uJOVq.n55abLr2-9L6G44uWit0L17~-bmr");
             
             /*******************************************************
                 Define Query (as a Command)
