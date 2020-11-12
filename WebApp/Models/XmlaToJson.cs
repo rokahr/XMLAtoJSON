@@ -16,7 +16,7 @@ namespace XMLAWEB.Models
                 return "Not all parameters have been specified! clientid, secret, query, workspace, dataset";
             }
 
-            string tenantid = "644d9875-54f6-4f5f-b562-2a14755779f7";
+            string tenantid = "your_tenant_id";
             string connectionString = "Datasource="+workspace+";initial catalog="+dataset+";User ID=app:"+clientid+"@"+tenantid+";Password="+secret;
         /*******************************************************
                 Define Connection
